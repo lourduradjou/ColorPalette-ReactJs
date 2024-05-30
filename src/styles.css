@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	background-color: blue;
+	margin: 10px;
+	padding: 24px 24px;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 10px;
+	align-items: center;
+}
+
+nav ul {
+	display: flex;
+	justify-content: flex-start;
+}
+
+nav ul li {
+	margin-left: 20px;
+	list-style: none;
+	color: white;
+	font-size: 18px;
+}
+
+nav .logo {
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+}
